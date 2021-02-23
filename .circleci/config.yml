@@ -11,7 +11,7 @@ jobs:
       CODENAME: 'a5y17lte'
       FLAVOR: 'eng'
       MAINTAINER: '@corsicanu'
-      BETA_BUILD: 'true'
+      TEST_BUILD: 'true'
       CHANGELOG: |
         - Initial test build
     working_directory: /home/builder/pitchblack
@@ -20,7 +20,7 @@ jobs:
           name: AIO Build
           command: |
            
-            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb-dev/build.sh
+            wget -q https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_utils/pb/build.sh
             source build.sh
           
             
