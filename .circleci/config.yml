@@ -6,8 +6,6 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      USE_SECRET_BOOTABLE: 'true'
-      SECRET_BR: 'tee'
       VERSION: '3.0.0'
       VENDOR: 'samsung'
       CODENAME: 'a5y17lte'
